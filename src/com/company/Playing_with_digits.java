@@ -10,6 +10,7 @@ public final class Playing_with_digits {
       result += (long)Math.pow(num,p);
       p++;
     }
+    //if result mod n results 0, return result / n, else return -1
     return (result % n == 0) ? result / n : -1;
 
   }
